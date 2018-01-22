@@ -575,7 +575,7 @@
             // 
             // pbProfilAdd
             // 
-            this.pbProfilAdd.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._new;
+            this.pbProfilAdd.BackgroundImage = global::WCT_Projekt.Properties.Resources._new;
             this.pbProfilAdd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbProfilAdd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbProfilAdd.InitialImage = null;
@@ -609,7 +609,7 @@
             // 
             // pbProfil
             // 
-            this.pbProfil.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.profile;
+            this.pbProfil.BackgroundImage = global::WCT_Projekt.Properties.Resources.profile;
             this.pbProfil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pbProfil.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbProfil.InitialImage = null;
@@ -643,7 +643,7 @@
             // 
             // pbProfil2
             // 
-            this.pbProfil2.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.profile;
+            this.pbProfil2.BackgroundImage = global::WCT_Projekt.Properties.Resources.profile;
             this.pbProfil2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pbProfil2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbProfil2.InitialImage = null;
