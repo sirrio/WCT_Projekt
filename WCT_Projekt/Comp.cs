@@ -10,16 +10,12 @@ using System.Windows.Forms;
 
 namespace WCT_Projekt
 {
-    public partial class Info : UserControl
+    public partial class Comp : UserControl
     {
-        public Info()
+        public Comp()
         {
             InitializeComponent();
         }
 
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }

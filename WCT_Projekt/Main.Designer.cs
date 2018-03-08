@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.scMain = new System.Windows.Forms.SplitContainer();
-            this.flpTabs = new System.Windows.Forms.FlowLayoutPanel();
+            this.pnlTabs = new System.Windows.Forms.FlowLayoutPanel();
             this.btnUser = new System.Windows.Forms.Button();
             this.btnData = new System.Windows.Forms.Button();
             this.btnOrganize = new System.Windows.Forms.Button();
@@ -41,51 +41,51 @@
             this.scMain.Panel1.SuspendLayout();
             this.scMain.Panel2.SuspendLayout();
             this.scMain.SuspendLayout();
-            this.flpTabs.SuspendLayout();
+            this.pnlTabs.SuspendLayout();
             this.SuspendLayout();
             // 
             // scMain
             // 
             this.scMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.scMain.Location = new System.Drawing.Point(0, 0);
-            this.scMain.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.scMain.Margin = new System.Windows.Forms.Padding(6);
             this.scMain.Name = "scMain";
             // 
             // scMain.Panel1
             // 
-            this.scMain.Panel1.Controls.Add(this.flpTabs);
+            this.scMain.Panel1.Controls.Add(this.pnlTabs);
             // 
             // scMain.Panel2
             // 
             this.scMain.Panel2.Controls.Add(this.pnlContent);
-            this.scMain.Size = new System.Drawing.Size(1548, 1063);
-            this.scMain.SplitterDistance = 211;
+            this.scMain.Size = new System.Drawing.Size(1254, 929);
+            this.scMain.SplitterDistance = 170;
             this.scMain.SplitterWidth = 8;
             this.scMain.TabIndex = 0;
             // 
-            // flpTabs
+            // pnlTabs
             // 
-            this.flpTabs.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.flpTabs.Controls.Add(this.btnUser);
-            this.flpTabs.Controls.Add(this.btnData);
-            this.flpTabs.Controls.Add(this.btnOrganize);
-            this.flpTabs.Controls.Add(this.btnInfo);
-            this.flpTabs.Controls.Add(this.btnAnalyse);
-            this.flpTabs.Controls.Add(this.btnCustom);
-            this.flpTabs.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flpTabs.Location = new System.Drawing.Point(0, 0);
-            this.flpTabs.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.flpTabs.Name = "flpTabs";
-            this.flpTabs.Size = new System.Drawing.Size(211, 1063);
-            this.flpTabs.TabIndex = 0;
+            this.pnlTabs.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.pnlTabs.Controls.Add(this.btnData);
+            this.pnlTabs.Controls.Add(this.btnUser);
+            this.pnlTabs.Controls.Add(this.btnOrganize);
+            this.pnlTabs.Controls.Add(this.btnInfo);
+            this.pnlTabs.Controls.Add(this.btnAnalyse);
+            this.pnlTabs.Controls.Add(this.btnCustom);
+            this.pnlTabs.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlTabs.Location = new System.Drawing.Point(0, 0);
+            this.pnlTabs.Margin = new System.Windows.Forms.Padding(0);
+            this.pnlTabs.Name = "pnlTabs";
+            this.pnlTabs.Size = new System.Drawing.Size(170, 929);
+            this.pnlTabs.TabIndex = 0;
             // 
             // btnUser
             // 
-            this.btnUser.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnUser.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnUser.FlatAppearance.BorderSize = 0;
             this.btnUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUser.Location = new System.Drawing.Point(6, 6);
-            this.btnUser.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnUser.Location = new System.Drawing.Point(6, 66);
+            this.btnUser.Margin = new System.Windows.Forms.Padding(6);
             this.btnUser.Name = "btnUser";
             this.btnUser.Size = new System.Drawing.Size(208, 48);
             this.btnUser.TabIndex = 1;
@@ -96,11 +96,11 @@
             // 
             // btnData
             // 
-            this.btnData.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btnData.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnData.FlatAppearance.BorderSize = 0;
             this.btnData.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnData.Location = new System.Drawing.Point(6, 66);
-            this.btnData.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnData.Location = new System.Drawing.Point(6, 6);
+            this.btnData.Margin = new System.Windows.Forms.Padding(6);
             this.btnData.Name = "btnData";
             this.btnData.Size = new System.Drawing.Size(208, 48);
             this.btnData.TabIndex = 2;
@@ -115,7 +115,7 @@
             this.btnOrganize.FlatAppearance.BorderSize = 0;
             this.btnOrganize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOrganize.Location = new System.Drawing.Point(6, 126);
-            this.btnOrganize.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnOrganize.Margin = new System.Windows.Forms.Padding(6);
             this.btnOrganize.Name = "btnOrganize";
             this.btnOrganize.Size = new System.Drawing.Size(208, 48);
             this.btnOrganize.TabIndex = 3;
@@ -130,7 +130,7 @@
             this.btnInfo.FlatAppearance.BorderSize = 0;
             this.btnInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInfo.Location = new System.Drawing.Point(6, 186);
-            this.btnInfo.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnInfo.Margin = new System.Windows.Forms.Padding(6);
             this.btnInfo.Name = "btnInfo";
             this.btnInfo.Size = new System.Drawing.Size(208, 48);
             this.btnInfo.TabIndex = 4;
@@ -145,7 +145,7 @@
             this.btnAnalyse.FlatAppearance.BorderSize = 0;
             this.btnAnalyse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAnalyse.Location = new System.Drawing.Point(6, 246);
-            this.btnAnalyse.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnAnalyse.Margin = new System.Windows.Forms.Padding(6);
             this.btnAnalyse.Name = "btnAnalyse";
             this.btnAnalyse.Size = new System.Drawing.Size(208, 48);
             this.btnAnalyse.TabIndex = 5;
@@ -160,7 +160,7 @@
             this.btnCustom.FlatAppearance.BorderSize = 0;
             this.btnCustom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCustom.Location = new System.Drawing.Point(6, 306);
-            this.btnCustom.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnCustom.Margin = new System.Windows.Forms.Padding(6);
             this.btnCustom.Name = "btnCustom";
             this.btnCustom.Size = new System.Drawing.Size(208, 48);
             this.btnCustom.TabIndex = 6;
@@ -173,8 +173,9 @@
             // 
             this.pnlContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContent.Location = new System.Drawing.Point(0, 0);
+            this.pnlContent.Margin = new System.Windows.Forms.Padding(0);
             this.pnlContent.Name = "pnlContent";
-            this.pnlContent.Size = new System.Drawing.Size(1329, 1063);
+            this.pnlContent.Size = new System.Drawing.Size(1076, 929);
             this.pnlContent.TabIndex = 0;
             // 
             // Main
@@ -182,11 +183,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1548, 1063);
+            this.ClientSize = new System.Drawing.Size(1254, 929);
             this.Controls.Add(this.scMain);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.MaximumSize = new System.Drawing.Size(1574, 1904);
-            this.MinimumSize = new System.Drawing.Size(1574, 704);
+            this.Margin = new System.Windows.Forms.Padding(6);
+            this.MaximumSize = new System.Drawing.Size(1280, 2500);
+            this.MinimumSize = new System.Drawing.Size(1280, 500);
             this.Name = "Main";
             this.ShowIcon = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
@@ -195,7 +196,7 @@
             this.scMain.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.scMain)).EndInit();
             this.scMain.ResumeLayout(false);
-            this.flpTabs.ResumeLayout(false);
+            this.pnlTabs.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -203,7 +204,7 @@
         #endregion
 
         private System.Windows.Forms.SplitContainer scMain;
-        private System.Windows.Forms.FlowLayoutPanel flpTabs;
+        private System.Windows.Forms.FlowLayoutPanel pnlTabs;
         private System.Windows.Forms.Button btnUser;
         private System.Windows.Forms.Button btnData;
         private System.Windows.Forms.Button btnOrganize;

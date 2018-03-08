@@ -38,6 +38,14 @@ namespace WindowsFormsApp1
             analyse.Parent = pnlContent;
             info.Parent = pnlContent;
             custom.Parent = pnlContent;
+
+            user.Hide();
+            data.Show();
+            organize.Hide();
+            analyse.Hide();
+            info.Hide();
+            custom.Hide();
+
         }
 
         private void btnData_Click(object sender, EventArgs e)

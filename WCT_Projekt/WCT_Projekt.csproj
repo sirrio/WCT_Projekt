@@ -51,6 +51,18 @@
     <Compile Include="Analyse.Designer.cs">
       <DependentUpon>Analyse.cs</DependentUpon>
     </Compile>
+    <Compile Include="Comp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Comp.Designer.cs">
+      <DependentUpon>Comp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comp2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Comp2.Designer.cs">
+      <DependentUpon>Comp2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Custom.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -68,6 +80,18 @@
     </Compile>
     <Compile Include="Organize.Designer.cs">
       <DependentUpon>Organize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Portrait.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Portrait.Designer.cs">
+      <DependentUpon>Portrait.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PortraitSmall.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PortraitSmall.Designer.cs">
+      <DependentUpon>PortraitSmall.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs">
       <SubType>UserControl</SubType>
@@ -92,6 +116,12 @@
     <EmbeddedResource Include="Analyse.resx">
       <DependentUpon>Analyse.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Comp.resx">
+      <DependentUpon>Comp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comp2.resx">
+      <DependentUpon>Comp2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Custom.resx">
       <DependentUpon>Custom.cs</DependentUpon>
     </EmbeddedResource>
@@ -100,6 +130,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Organize.resx">
       <DependentUpon>Organize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Portrait.resx">
+      <DependentUpon>Portrait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PortraitSmall.resx">
+      <DependentUpon>PortraitSmall.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User.resx">
       <DependentUpon>User.cs</DependentUpon>
