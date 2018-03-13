@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Analyse));
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.portraitSmall8 = new WCT_Projekt.PortraitSmall();
             this.portraitSmall4 = new WCT_Projekt.PortraitSmall();
             this.portraitSmall5 = new WCT_Projekt.PortraitSmall();
@@ -51,10 +54,15 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel2.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
             this.flowLayoutPanel4.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
             // 
             // portraitSmall8
@@ -270,6 +278,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.chart1);
             this.panel1.Location = new System.Drawing.Point(0, 285);
             this.panel1.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
             this.panel1.Name = "panel1";
@@ -278,16 +287,40 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.textBox1);
             this.panel2.Location = new System.Drawing.Point(0, 565);
             this.panel2.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1076, 262);
             this.panel2.TabIndex = 11;
             // 
+            // chart1
+            // 
+            chartArea3.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.chart1.Legends.Add(legend3);
+            this.chart1.Location = new System.Drawing.Point(15, 23);
+            this.chart1.Name = "chart1";
+            series3.ChartArea = "ChartArea1";
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.chart1.Series.Add(series3);
+            this.chart1.Size = new System.Drawing.Size(1044, 220);
+            this.chart1.TabIndex = 0;
+            this.chart1.Text = "chart1";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(15, 13);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(1044, 226);
+            this.textBox1.TabIndex = 0;
+            // 
             // Analyse
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "Analyse";
             this.Size = new System.Drawing.Size(1076, 852);
@@ -296,6 +329,10 @@
             this.flowLayoutPanel4.ResumeLayout(false);
             this.flowLayoutPanel4.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -324,5 +361,7 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

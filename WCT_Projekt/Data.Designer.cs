@@ -34,15 +34,7 @@
             this.hline = new System.Windows.Forms.Label();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
-            this.portraitSmall1 = new WCT_Projekt.PortraitSmall();
-            this.portraitSmall2 = new WCT_Projekt.PortraitSmall();
-            this.portraitSmall3 = new WCT_Projekt.PortraitSmall();
-            this.portraitSmall4 = new WCT_Projekt.PortraitSmall();
-            this.portraitSmall5 = new WCT_Projekt.PortraitSmall();
-            this.portraitSmall6 = new WCT_Projekt.PortraitSmall();
-            this.portraitSmall7 = new WCT_Projekt.PortraitSmall();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
-            this.portraitSmall8 = new WCT_Projekt.PortraitSmall();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
@@ -58,6 +50,14 @@
             this.Zeit = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Feld1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Feld2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.portraitSmall1 = new WCT_Projekt.PortraitSmall();
+            this.portraitSmall2 = new WCT_Projekt.PortraitSmall();
+            this.portraitSmall3 = new WCT_Projekt.PortraitSmall();
+            this.portraitSmall4 = new WCT_Projekt.PortraitSmall();
+            this.portraitSmall5 = new WCT_Projekt.PortraitSmall();
+            this.portraitSmall6 = new WCT_Projekt.PortraitSmall();
+            this.portraitSmall7 = new WCT_Projekt.PortraitSmall();
+            this.portraitSmall8 = new WCT_Projekt.PortraitSmall();
             this.flowLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
@@ -124,83 +124,6 @@
             this.label1.Size = new System.Drawing.Size(1076, 2);
             this.label1.TabIndex = 8;
             // 
-            // portraitSmall1
-            // 
-            this.portraitSmall1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.portraitSmall1.image = global::WCT_Projekt.Properties.Resources._new;
-            this.portraitSmall1.Location = new System.Drawing.Point(3, 0);
-            this.portraitSmall1.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.portraitSmall1.name = "Alle";
-            this.portraitSmall1.Name = "portraitSmall1";
-            this.portraitSmall1.Size = new System.Drawing.Size(100, 75);
-            this.portraitSmall1.TabIndex = 0;
-            // 
-            // portraitSmall2
-            // 
-            this.portraitSmall2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.portraitSmall2.image = ((System.Drawing.Image)(resources.GetObject("portraitSmall2.image")));
-            this.portraitSmall2.Location = new System.Drawing.Point(109, 0);
-            this.portraitSmall2.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.portraitSmall2.name = "David Martin";
-            this.portraitSmall2.Name = "portraitSmall2";
-            this.portraitSmall2.Size = new System.Drawing.Size(100, 75);
-            this.portraitSmall2.TabIndex = 1;
-            // 
-            // portraitSmall3
-            // 
-            this.portraitSmall3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.portraitSmall3.image = ((System.Drawing.Image)(resources.GetObject("portraitSmall3.image")));
-            this.portraitSmall3.Location = new System.Drawing.Point(215, 0);
-            this.portraitSmall3.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.portraitSmall3.name = "Edwin Zimmer";
-            this.portraitSmall3.Name = "portraitSmall3";
-            this.portraitSmall3.Size = new System.Drawing.Size(100, 75);
-            this.portraitSmall3.TabIndex = 2;
-            // 
-            // portraitSmall4
-            // 
-            this.portraitSmall4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.portraitSmall4.image = global::WCT_Projekt.Properties.Resources._new;
-            this.portraitSmall4.Location = new System.Drawing.Point(3, 0);
-            this.portraitSmall4.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.portraitSmall4.name = "Alle";
-            this.portraitSmall4.Name = "portraitSmall4";
-            this.portraitSmall4.Size = new System.Drawing.Size(100, 75);
-            this.portraitSmall4.TabIndex = 0;
-            // 
-            // portraitSmall5
-            // 
-            this.portraitSmall5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.portraitSmall5.image = null;
-            this.portraitSmall5.Location = new System.Drawing.Point(109, 0);
-            this.portraitSmall5.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.portraitSmall5.name = "Telefon";
-            this.portraitSmall5.Name = "portraitSmall5";
-            this.portraitSmall5.Size = new System.Drawing.Size(100, 75);
-            this.portraitSmall5.TabIndex = 1;
-            // 
-            // portraitSmall6
-            // 
-            this.portraitSmall6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.portraitSmall6.image = null;
-            this.portraitSmall6.Location = new System.Drawing.Point(215, 0);
-            this.portraitSmall6.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.portraitSmall6.name = "Vor. Ort.";
-            this.portraitSmall6.Name = "portraitSmall6";
-            this.portraitSmall6.Size = new System.Drawing.Size(100, 75);
-            this.portraitSmall6.TabIndex = 2;
-            // 
-            // portraitSmall7
-            // 
-            this.portraitSmall7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.portraitSmall7.image = global::WCT_Projekt.Properties.Resources.profile;
-            this.portraitSmall7.Location = new System.Drawing.Point(321, 0);
-            this.portraitSmall7.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.portraitSmall7.name = "Test";
-            this.portraitSmall7.Name = "portraitSmall7";
-            this.portraitSmall7.Size = new System.Drawing.Size(100, 75);
-            this.portraitSmall7.TabIndex = 3;
-            // 
             // flowLayoutPanel4
             // 
             this.flowLayoutPanel4.Controls.Add(this.portraitSmall8);
@@ -213,17 +136,6 @@
             this.flowLayoutPanel4.Name = "flowLayoutPanel4";
             this.flowLayoutPanel4.Size = new System.Drawing.Size(1076, 76);
             this.flowLayoutPanel4.TabIndex = 8;
-            // 
-            // portraitSmall8
-            // 
-            this.portraitSmall8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.portraitSmall8.image = global::WCT_Projekt.Properties.Resources._new;
-            this.portraitSmall8.Location = new System.Drawing.Point(3, 0);
-            this.portraitSmall8.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.portraitSmall8.name = "Alle";
-            this.portraitSmall8.Name = "portraitSmall8";
-            this.portraitSmall8.Size = new System.Drawing.Size(100, 75);
-            this.portraitSmall8.TabIndex = 0;
             // 
             // dateTimePicker1
             // 
@@ -342,10 +254,98 @@
             this.Feld2.Text = "Feld2";
             this.Feld2.Width = 289;
             // 
+            // portraitSmall1
+            // 
+            this.portraitSmall1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.portraitSmall1.image = global::WCT_Projekt.Properties.Resources._new;
+            this.portraitSmall1.Location = new System.Drawing.Point(3, 0);
+            this.portraitSmall1.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.portraitSmall1.name = "Alle";
+            this.portraitSmall1.Name = "portraitSmall1";
+            this.portraitSmall1.Size = new System.Drawing.Size(100, 75);
+            this.portraitSmall1.TabIndex = 0;
+            // 
+            // portraitSmall2
+            // 
+            this.portraitSmall2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.portraitSmall2.image = ((System.Drawing.Image)(resources.GetObject("portraitSmall2.image")));
+            this.portraitSmall2.Location = new System.Drawing.Point(109, 0);
+            this.portraitSmall2.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.portraitSmall2.name = "David Martin";
+            this.portraitSmall2.Name = "portraitSmall2";
+            this.portraitSmall2.Size = new System.Drawing.Size(100, 75);
+            this.portraitSmall2.TabIndex = 1;
+            // 
+            // portraitSmall3
+            // 
+            this.portraitSmall3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.portraitSmall3.image = ((System.Drawing.Image)(resources.GetObject("portraitSmall3.image")));
+            this.portraitSmall3.Location = new System.Drawing.Point(215, 0);
+            this.portraitSmall3.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.portraitSmall3.name = "Edwin Zimmer";
+            this.portraitSmall3.Name = "portraitSmall3";
+            this.portraitSmall3.Size = new System.Drawing.Size(100, 75);
+            this.portraitSmall3.TabIndex = 2;
+            // 
+            // portraitSmall4
+            // 
+            this.portraitSmall4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.portraitSmall4.image = global::WCT_Projekt.Properties.Resources._new;
+            this.portraitSmall4.Location = new System.Drawing.Point(3, 0);
+            this.portraitSmall4.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.portraitSmall4.name = "Alle";
+            this.portraitSmall4.Name = "portraitSmall4";
+            this.portraitSmall4.Size = new System.Drawing.Size(100, 75);
+            this.portraitSmall4.TabIndex = 0;
+            // 
+            // portraitSmall5
+            // 
+            this.portraitSmall5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.portraitSmall5.image = null;
+            this.portraitSmall5.Location = new System.Drawing.Point(109, 0);
+            this.portraitSmall5.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.portraitSmall5.name = "Telefon";
+            this.portraitSmall5.Name = "portraitSmall5";
+            this.portraitSmall5.Size = new System.Drawing.Size(100, 75);
+            this.portraitSmall5.TabIndex = 1;
+            // 
+            // portraitSmall6
+            // 
+            this.portraitSmall6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.portraitSmall6.image = null;
+            this.portraitSmall6.Location = new System.Drawing.Point(215, 0);
+            this.portraitSmall6.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.portraitSmall6.name = "Vor. Ort.";
+            this.portraitSmall6.Name = "portraitSmall6";
+            this.portraitSmall6.Size = new System.Drawing.Size(100, 75);
+            this.portraitSmall6.TabIndex = 2;
+            // 
+            // portraitSmall7
+            // 
+            this.portraitSmall7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.portraitSmall7.image = global::WCT_Projekt.Properties.Resources.profile;
+            this.portraitSmall7.Location = new System.Drawing.Point(321, 0);
+            this.portraitSmall7.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.portraitSmall7.name = "Test";
+            this.portraitSmall7.Name = "portraitSmall7";
+            this.portraitSmall7.Size = new System.Drawing.Size(100, 75);
+            this.portraitSmall7.TabIndex = 3;
+            // 
+            // portraitSmall8
+            // 
+            this.portraitSmall8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.portraitSmall8.image = global::WCT_Projekt.Properties.Resources._new;
+            this.portraitSmall8.Location = new System.Drawing.Point(3, 0);
+            this.portraitSmall8.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.portraitSmall8.name = "Alle";
+            this.portraitSmall8.Name = "portraitSmall8";
+            this.portraitSmall8.Size = new System.Drawing.Size(100, 75);
+            this.portraitSmall8.TabIndex = 0;
+            // 
             // Data
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.AutoScroll = true;
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "Data";
             this.Size = new System.Drawing.Size(1076, 1328);

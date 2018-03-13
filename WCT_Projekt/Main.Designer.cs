@@ -47,6 +47,8 @@
             // scMain
             // 
             this.scMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.scMain.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.scMain.IsSplitterFixed = true;
             this.scMain.Location = new System.Drawing.Point(0, 0);
             this.scMain.Margin = new System.Windows.Forms.Padding(6);
             this.scMain.Name = "scMain";
@@ -59,7 +61,7 @@
             // 
             this.scMain.Panel2.Controls.Add(this.pnlContent);
             this.scMain.Size = new System.Drawing.Size(1254, 929);
-            this.scMain.SplitterDistance = 170;
+            this.scMain.SplitterDistance = 160;
             this.scMain.SplitterWidth = 8;
             this.scMain.TabIndex = 0;
             // 
@@ -76,7 +78,7 @@
             this.pnlTabs.Location = new System.Drawing.Point(0, 0);
             this.pnlTabs.Margin = new System.Windows.Forms.Padding(0);
             this.pnlTabs.Name = "pnlTabs";
-            this.pnlTabs.Size = new System.Drawing.Size(170, 929);
+            this.pnlTabs.Size = new System.Drawing.Size(160, 929);
             this.pnlTabs.TabIndex = 0;
             // 
             // btnUser
@@ -171,22 +173,22 @@
             // 
             // pnlContent
             // 
+            this.pnlContent.AutoScroll = true;
             this.pnlContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContent.Location = new System.Drawing.Point(0, 0);
             this.pnlContent.Margin = new System.Windows.Forms.Padding(0);
             this.pnlContent.Name = "pnlContent";
-            this.pnlContent.Size = new System.Drawing.Size(1076, 929);
+            this.pnlContent.Size = new System.Drawing.Size(1086, 929);
             this.pnlContent.TabIndex = 0;
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1254, 929);
             this.Controls.Add(this.scMain);
             this.Margin = new System.Windows.Forms.Padding(6);
-            this.MaximumSize = new System.Drawing.Size(1280, 2500);
+            this.MaximumSize = new System.Drawing.Size(1920, 5000);
             this.MinimumSize = new System.Drawing.Size(1280, 500);
             this.Name = "Main";
             this.ShowIcon = false;

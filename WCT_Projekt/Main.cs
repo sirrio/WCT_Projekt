@@ -39,6 +39,9 @@ namespace WindowsFormsApp1
             info.Parent = pnlContent;
             custom.Parent = pnlContent;
 
+            //data.Dock = DockStyle.None;
+            //data.Anchor = AnchorStyles.Right | AnchorStyles.Left;
+
             user.Hide();
             data.Show();
             organize.Hide();

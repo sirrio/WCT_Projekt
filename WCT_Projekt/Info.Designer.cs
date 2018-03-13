@@ -106,8 +106,7 @@
             // 
             // Info
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "Info";
             this.Size = new System.Drawing.Size(1076, 786);
