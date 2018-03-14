@@ -12,9 +12,23 @@ namespace WCT_Projekt
 {
     public partial class Data : UserControl
     {
+        Comp comp;
+        Comp2 comp2;
+
         public Data()
         {
             InitializeComponent();
+
+            comp = new Comp();
+            comp2 = new Comp2();
+
+            comp.Parent = pnlDataNewEdit;
+            comp2.Parent = pnlDataNewEdit;
+
+            comp.Show();
+            comp2.Hide();
+
+            comboBox1.SelectedIndex = 0;
         }
 
         private void Data_Load(object sender, EventArgs e)
@@ -30,6 +44,25 @@ namespace WCT_Projekt
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void portraitSmall5_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedIndex == 0)
+            {
+                comp.Show();
+                comp2.Hide();
+            }
+            else
+            {
+                comp.Hide();
+                comp2.Show();
+            }
         }
     }
 }

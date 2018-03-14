@@ -22,9 +22,17 @@ namespace WCT_Projekt
             test1 = new Comp();
             test2 = new Comp2();
 
+            comboBox1.SelectedIndex = 0;
+            comboBox2.SelectedIndex = 0;
+
         }
 
         private void chart1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

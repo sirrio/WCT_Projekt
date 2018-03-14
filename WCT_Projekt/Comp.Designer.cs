@@ -43,102 +43,92 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(646, 47);
-            this.label11.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label11.Location = new System.Drawing.Point(323, 24);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(162, 25);
+            this.label11.Size = new System.Drawing.Size(82, 13);
             this.label11.TabIndex = 17;
             this.label11.Text = "berechnete Zeit";
             // 
             // dateTimePicker4
             // 
             this.dateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker4.Location = new System.Drawing.Point(810, 43);
-            this.dateTimePicker4.Margin = new System.Windows.Forms.Padding(6);
+            this.dateTimePicker4.Location = new System.Drawing.Point(405, 22);
             this.dateTimePicker4.Name = "dateTimePicker4";
             this.dateTimePicker4.ShowUpDown = true;
-            this.dateTimePicker4.Size = new System.Drawing.Size(150, 31);
+            this.dateTimePicker4.Size = new System.Drawing.Size(77, 20);
             this.dateTimePicker4.TabIndex = 16;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(396, 47);
-            this.label12.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label12.Location = new System.Drawing.Point(198, 24);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(48, 25);
+            this.label12.Size = new System.Drawing.Size(25, 13);
             this.label12.TabIndex = 15;
             this.label12.Text = "Zeit";
             // 
             // dateTimePicker5
             // 
             this.dateTimePicker5.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker5.Location = new System.Drawing.Point(448, 43);
-            this.dateTimePicker5.Margin = new System.Windows.Forms.Padding(6);
+            this.dateTimePicker5.Location = new System.Drawing.Point(224, 22);
             this.dateTimePicker5.Name = "dateTimePicker5";
             this.dateTimePicker5.ShowUpDown = true;
-            this.dateTimePicker5.Size = new System.Drawing.Size(150, 31);
+            this.dateTimePicker5.Size = new System.Drawing.Size(77, 20);
             this.dateTimePicker5.TabIndex = 14;
             // 
             // dateTimePicker6
             // 
             this.dateTimePicker6.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker6.Location = new System.Drawing.Point(146, 43);
-            this.dateTimePicker6.Margin = new System.Windows.Forms.Padding(6);
+            this.dateTimePicker6.Location = new System.Drawing.Point(73, 22);
             this.dateTimePicker6.Name = "dateTimePicker6";
-            this.dateTimePicker6.Size = new System.Drawing.Size(196, 31);
+            this.dateTimePicker6.Size = new System.Drawing.Size(100, 20);
             this.dateTimePicker6.TabIndex = 12;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(28, 156);
-            this.label13.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label13.Location = new System.Drawing.Point(14, 81);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(103, 25);
+            this.label13.Size = new System.Drawing.Size(53, 13);
             this.label13.TabIndex = 11;
             this.label13.Text = "Nachricht";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(50, 106);
-            this.label14.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label14.Location = new System.Drawing.Point(25, 55);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(94, 25);
+            this.label14.Size = new System.Drawing.Size(48, 13);
             this.label14.TabIndex = 10;
             this.label14.Text = "Tele. Nr.";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(58, 47);
-            this.label16.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label16.Location = new System.Drawing.Point(29, 24);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(74, 25);
+            this.label16.Size = new System.Drawing.Size(38, 13);
             this.label16.TabIndex = 6;
             this.label16.Text = "Datum";
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(146, 150);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(6);
+            this.textBox8.Location = new System.Drawing.Point(73, 78);
             this.textBox8.Multiline = true;
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(876, 239);
+            this.textBox8.Size = new System.Drawing.Size(981, 170);
             this.textBox8.TabIndex = 5;
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(146, 100);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(6);
+            this.textBox9.Location = new System.Drawing.Point(73, 52);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(296, 31);
+            this.textBox9.Size = new System.Drawing.Size(150, 20);
             this.textBox9.TabIndex = 4;
             // 
             // Comp
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Controls.Add(this.label11);
@@ -151,8 +141,9 @@
             this.Controls.Add(this.dateTimePicker6);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Comp";
-            this.Size = new System.Drawing.Size(1050, 426);
+            this.Size = new System.Drawing.Size(1076, 263);
             this.ResumeLayout(false);
             this.PerformLayout();
 

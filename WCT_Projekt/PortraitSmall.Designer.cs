@@ -39,7 +39,7 @@
             this.lblProfil.Location = new System.Drawing.Point(0, 0);
             this.lblProfil.Margin = new System.Windows.Forms.Padding(0);
             this.lblProfil.Name = "lblProfil";
-            this.lblProfil.Size = new System.Drawing.Size(98, 28);
+            this.lblProfil.Size = new System.Drawing.Size(60, 15);
             this.lblProfil.TabIndex = 4;
             this.lblProfil.Text = "Max Mustermann";
             this.lblProfil.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -50,10 +50,10 @@
             this.pbProfil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pbProfil.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pbProfil.InitialImage = null;
-            this.pbProfil.Location = new System.Drawing.Point(0, 28);
+            this.pbProfil.Location = new System.Drawing.Point(0, 15);
             this.pbProfil.Margin = new System.Windows.Forms.Padding(0);
             this.pbProfil.Name = "pbProfil";
-            this.pbProfil.Size = new System.Drawing.Size(98, 45);
+            this.pbProfil.Size = new System.Drawing.Size(60, 20);
             this.pbProfil.TabIndex = 3;
             this.pbProfil.TabStop = false;
             // 
@@ -64,7 +64,7 @@
             this.Controls.Add(this.lblProfil);
             this.Controls.Add(this.pbProfil);
             this.Name = "PortraitSmall";
-            this.Size = new System.Drawing.Size(98, 73);
+            this.Size = new System.Drawing.Size(60, 35);
             ((System.ComponentModel.ISupportInitialize)(this.pbProfil)).EndInit();
             this.ResumeLayout(false);
 

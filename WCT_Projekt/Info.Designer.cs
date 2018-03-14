@@ -29,13 +29,15 @@
         private void InitializeComponent()
         {
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.hline = new System.Windows.Forms.Label();
-            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.hline = new System.Windows.Forms.Label();
+            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel2.SuspendLayout();
+            this.flowLayoutPanel3.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,13 +50,37 @@
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 3);
             this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(1076, 338);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(1076, 221);
             this.flowLayoutPanel2.TabIndex = 6;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(3, 3);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(1058, 20);
+            this.textBox1.TabIndex = 0;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(3, 29);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(1058, 139);
+            this.textBox2.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(3, 174);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(147, 41);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Hinzufuegen";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // hline
             // 
             this.hline.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.hline.Location = new System.Drawing.Point(3, 349);
+            this.hline.Location = new System.Drawing.Point(3, 232);
             this.hline.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.hline.Name = "hline";
             this.hline.Size = new System.Drawing.Size(1076, 2);
@@ -62,10 +88,11 @@
             // 
             // flowLayoutPanel3
             // 
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(0, 359);
+            this.flowLayoutPanel3.Controls.Add(this.textBox3);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(0, 242);
             this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(1076, 166);
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(1076, 422);
             this.flowLayoutPanel3.TabIndex = 7;
             // 
             // flowLayoutPanel1
@@ -80,29 +107,16 @@
             this.flowLayoutPanel1.TabIndex = 7;
             this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
-            // textBox1
+            // textBox3
             // 
-            this.textBox1.Location = new System.Drawing.Point(3, 3);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(1058, 31);
-            this.textBox1.TabIndex = 0;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(3, 40);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(1058, 235);
-            this.textBox2.TabIndex = 1;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(3, 281);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(147, 41);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Hinzufuegen";
-            this.button1.UseVisualStyleBackColor = true;
+            this.textBox3.Location = new System.Drawing.Point(3, 3);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(1058, 408);
+            this.textBox3.TabIndex = 2;
+            this.textBox3.Text = "Gespraech vom 20.10.2017: Herr Muster erzaehlt einen Witz ueber einen Hund und er" +
+    "waehnt das er Golf mag.\r\n\r\nTelefonat vom 05.01.2018: Frau Schmidt ist interessie" +
+    "rt an unseren neuen Servern";
             // 
             // Info
             // 
@@ -112,6 +126,8 @@
             this.Size = new System.Drawing.Size(1076, 786);
             this.flowLayoutPanel2.ResumeLayout(false);
             this.flowLayoutPanel2.PerformLayout();
+            this.flowLayoutPanel3.ResumeLayout(false);
+            this.flowLayoutPanel3.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -126,5 +142,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }
