@@ -52,6 +52,12 @@
     <Compile Include="Analyse.Designer.cs">
       <DependentUpon>Analyse.cs</DependentUpon>
     </Compile>
+    <Compile Include="cButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="cLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Comp.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -63,6 +69,9 @@
     </Compile>
     <Compile Include="Comp2.Designer.cs">
       <DependentUpon>Comp2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cTextBox.cs">
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Custom.cs">
       <SubType>UserControl</SubType>
