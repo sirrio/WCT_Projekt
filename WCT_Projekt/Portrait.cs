@@ -32,6 +32,7 @@ namespace WCT_Projekt
 
             //Bitmap img = new Bitmap("WCT_Projekt.Properties.Resources._new");
             //pbProfil.BackgroundImage = img;
+
             lblProfil.Text = "Neu";
         }
 

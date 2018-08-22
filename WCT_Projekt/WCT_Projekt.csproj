@@ -70,6 +70,7 @@
     <Compile Include="Comp2.Designer.cs">
       <DependentUpon>Comp2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Connection.cs" />
     <Compile Include="cTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -85,6 +86,7 @@
     <Compile Include="Info.Designer.cs">
       <DependentUpon>Info.cs</DependentUpon>
     </Compile>
+    <Compile Include="Init.cs" />
     <Compile Include="Organize.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -103,6 +105,8 @@
     <Compile Include="PortraitSmall.Designer.cs">
       <DependentUpon>PortraitSmall.cs</DependentUpon>
     </Compile>
+    <Compile Include="Properties\Tab.cs" />
+    <Compile Include="Tab.cs" />
     <Compile Include="User.cs">
       <SubType>UserControl</SubType>
     </Compile>

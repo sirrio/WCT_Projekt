@@ -153,6 +153,9 @@ namespace WindowsFormsApp1
             custom.Show();
         }
 
+        private void pnlContent_Paint(object sender, PaintEventArgs e) {
+
+        }
     }
 
 }

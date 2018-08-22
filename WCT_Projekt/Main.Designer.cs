@@ -30,9 +30,8 @@
         {
             this.scMain = new System.Windows.Forms.SplitContainer();
             this.pnlTabs = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnUser = new System.Windows.Forms.Button();
             this.btnData = new System.Windows.Forms.Button();
-            this.btnOrganize = new System.Windows.Forms.Button();
+            this.btnUser = new System.Windows.Forms.Button();
             this.btnInfo = new System.Windows.Forms.Button();
             this.btnAnalyse = new System.Windows.Forms.Button();
             this.btnCustom = new System.Windows.Forms.Button();
@@ -60,7 +59,7 @@
             // scMain.Panel2
             // 
             this.scMain.Panel2.Controls.Add(this.pnlContent);
-            this.scMain.Size = new System.Drawing.Size(1254, 929);
+            this.scMain.Size = new System.Drawing.Size(1264, 929);
             this.scMain.SplitterDistance = 160;
             this.scMain.SplitterWidth = 8;
             this.scMain.TabIndex = 0;
@@ -70,7 +69,6 @@
             this.pnlTabs.BackColor = System.Drawing.SystemColors.ControlDark;
             this.pnlTabs.Controls.Add(this.btnData);
             this.pnlTabs.Controls.Add(this.btnUser);
-            this.pnlTabs.Controls.Add(this.btnOrganize);
             this.pnlTabs.Controls.Add(this.btnInfo);
             this.pnlTabs.Controls.Add(this.btnAnalyse);
             this.pnlTabs.Controls.Add(this.btnCustom);
@@ -80,21 +78,6 @@
             this.pnlTabs.Name = "pnlTabs";
             this.pnlTabs.Size = new System.Drawing.Size(160, 929);
             this.pnlTabs.TabIndex = 0;
-            // 
-            // btnUser
-            // 
-            this.btnUser.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.btnUser.FlatAppearance.BorderSize = 0;
-            this.btnUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUser.Location = new System.Drawing.Point(6, 66);
-            this.btnUser.Margin = new System.Windows.Forms.Padding(6);
-            this.btnUser.Name = "btnUser";
-            this.btnUser.Size = new System.Drawing.Size(208, 48);
-            this.btnUser.TabIndex = 1;
-            this.btnUser.Text = "Benutzer";
-            this.btnUser.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUser.UseVisualStyleBackColor = false;
-            this.btnUser.Click += new System.EventHandler(this.btnUser_Click);
             // 
             // btnData
             // 
@@ -111,27 +94,27 @@
             this.btnData.UseVisualStyleBackColor = false;
             this.btnData.Click += new System.EventHandler(this.btnData_Click);
             // 
-            // btnOrganize
+            // btnUser
             // 
-            this.btnOrganize.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.btnOrganize.FlatAppearance.BorderSize = 0;
-            this.btnOrganize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOrganize.Location = new System.Drawing.Point(6, 126);
-            this.btnOrganize.Margin = new System.Windows.Forms.Padding(6);
-            this.btnOrganize.Name = "btnOrganize";
-            this.btnOrganize.Size = new System.Drawing.Size(208, 48);
-            this.btnOrganize.TabIndex = 3;
-            this.btnOrganize.Text = "Planen";
-            this.btnOrganize.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOrganize.UseVisualStyleBackColor = false;
-            this.btnOrganize.Click += new System.EventHandler(this.btnOrganize_Click);
+            this.btnUser.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btnUser.FlatAppearance.BorderSize = 0;
+            this.btnUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUser.Location = new System.Drawing.Point(6, 66);
+            this.btnUser.Margin = new System.Windows.Forms.Padding(6);
+            this.btnUser.Name = "btnUser";
+            this.btnUser.Size = new System.Drawing.Size(208, 48);
+            this.btnUser.TabIndex = 1;
+            this.btnUser.Text = "Benutzer";
+            this.btnUser.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnUser.UseVisualStyleBackColor = false;
+            this.btnUser.Click += new System.EventHandler(this.btnUser_Click);
             // 
             // btnInfo
             // 
             this.btnInfo.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnInfo.FlatAppearance.BorderSize = 0;
             this.btnInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInfo.Location = new System.Drawing.Point(6, 186);
+            this.btnInfo.Location = new System.Drawing.Point(6, 126);
             this.btnInfo.Margin = new System.Windows.Forms.Padding(6);
             this.btnInfo.Name = "btnInfo";
             this.btnInfo.Size = new System.Drawing.Size(208, 48);
@@ -146,7 +129,7 @@
             this.btnAnalyse.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnAnalyse.FlatAppearance.BorderSize = 0;
             this.btnAnalyse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAnalyse.Location = new System.Drawing.Point(6, 246);
+            this.btnAnalyse.Location = new System.Drawing.Point(6, 186);
             this.btnAnalyse.Margin = new System.Windows.Forms.Padding(6);
             this.btnAnalyse.Name = "btnAnalyse";
             this.btnAnalyse.Size = new System.Drawing.Size(208, 48);
@@ -161,7 +144,7 @@
             this.btnCustom.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnCustom.FlatAppearance.BorderSize = 0;
             this.btnCustom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCustom.Location = new System.Drawing.Point(6, 306);
+            this.btnCustom.Location = new System.Drawing.Point(6, 246);
             this.btnCustom.Margin = new System.Windows.Forms.Padding(6);
             this.btnCustom.Name = "btnCustom";
             this.btnCustom.Size = new System.Drawing.Size(208, 48);
@@ -178,14 +161,15 @@
             this.pnlContent.Location = new System.Drawing.Point(0, 0);
             this.pnlContent.Margin = new System.Windows.Forms.Padding(0);
             this.pnlContent.Name = "pnlContent";
-            this.pnlContent.Size = new System.Drawing.Size(1086, 929);
+            this.pnlContent.Size = new System.Drawing.Size(1096, 929);
             this.pnlContent.TabIndex = 0;
+            this.pnlContent.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlContent_Paint);
             // 
             // Main
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1254, 929);
+            this.ClientSize = new System.Drawing.Size(1264, 929);
             this.Controls.Add(this.scMain);
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximumSize = new System.Drawing.Size(1920, 5000);
@@ -209,7 +193,6 @@
         private System.Windows.Forms.FlowLayoutPanel pnlTabs;
         private System.Windows.Forms.Button btnUser;
         private System.Windows.Forms.Button btnData;
-        private System.Windows.Forms.Button btnOrganize;
         private System.Windows.Forms.Button btnInfo;
         private System.Windows.Forms.Button btnAnalyse;
         private System.Windows.Forms.Button btnCustom;
