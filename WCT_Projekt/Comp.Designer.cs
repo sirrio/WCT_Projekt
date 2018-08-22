@@ -121,7 +121,7 @@
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(73, 52);
+            this.textBox9.Location = new System.Drawing.Point(73, 53);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(150, 20);
             this.textBox9.TabIndex = 4;
@@ -141,7 +141,7 @@
             this.Controls.Add(this.dateTimePicker6);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Comp";
             this.Size = new System.Drawing.Size(1076, 263);
             this.ResumeLayout(false);

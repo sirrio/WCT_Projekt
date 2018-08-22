@@ -66,14 +66,14 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(257, 83);
+            this.textBox1.Location = new System.Drawing.Point(258, 83);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(70, 20);
             this.textBox1.TabIndex = 19;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(257, 57);
+            this.textBox2.Location = new System.Drawing.Point(258, 57);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(70, 20);
             this.textBox2.TabIndex = 18;
@@ -201,7 +201,7 @@
             this.Controls.Add(this.dateTimePicker3);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.dateTimePicker1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Comp2";
             this.Size = new System.Drawing.Size(1076, 263);
             this.ResumeLayout(false);

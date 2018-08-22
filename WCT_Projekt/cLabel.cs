@@ -12,6 +12,7 @@ namespace WCT_Projekt {
 
         public cLabel(Guid guid) {
             this.guid = guid;
+
         }
     }
 }
